@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="adc_rate_changer_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="adc_rate_changer_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="860000000fs"></ZoomStartTime>
+      <ZoomEndTime time="950000001fs"></ZoomEndTime>
+      <Cursor1Time time="920000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="15" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/clkin160">
+      <obj_property name="ElementShortName">clkin160</obj_property>
+      <obj_property name="ObjectShortName">clkin160</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/dcm_reset">
+      <obj_property name="ElementShortName">dcm_reset</obj_property>
+      <obj_property name="ObjectShortName">dcm_reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/dcm_locked">
+      <obj_property name="ElementShortName">dcm_locked</obj_property>
+      <obj_property name="ObjectShortName">dcm_locked</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/clkout320">
+      <obj_property name="ElementShortName">clkout320</obj_property>
+      <obj_property name="ObjectShortName">clkout320</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/i_in">
+      <obj_property name="ElementShortName">i_in[1:0][13:0]</obj_property>
+      <obj_property name="ObjectShortName">i_in[1:0][13:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/i_in[1]">
+         <obj_property name="ElementShortName">[1][13:0]</obj_property>
+         <obj_property name="ObjectShortName">i_in[1][13:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/i_in[0]">
+         <obj_property name="ElementShortName">[0][13:0]</obj_property>
+         <obj_property name="ObjectShortName">i_in[0][13:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/q_in">
+      <obj_property name="ElementShortName">q_in[1:0][13:0]</obj_property>
+      <obj_property name="ObjectShortName">q_in[1:0][13:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/q_in[1]">
+         <obj_property name="ElementShortName">[1][13:0]</obj_property>
+         <obj_property name="ObjectShortName">q_in[1][13:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/q_in[0]">
+         <obj_property name="ElementShortName">[0][13:0]</obj_property>
+         <obj_property name="ObjectShortName">q_in[0][13:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/i_out">
+      <obj_property name="ElementShortName">i_out[13:0]</obj_property>
+      <obj_property name="ObjectShortName">i_out[13:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/q_out">
+      <obj_property name="ElementShortName">q_out[13:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider14" type="divider">
+      <obj_property name="label">uut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/uut/clkin160">
+      <obj_property name="ElementShortName">clkin160</obj_property>
+      <obj_property name="ObjectShortName">clkin160</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/uut/clkout320">
+      <obj_property name="ElementShortName">clkout320</obj_property>
+      <obj_property name="ObjectShortName">clkout320</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/uut/div160">
+      <obj_property name="ElementShortName">div160</obj_property>
+      <obj_property name="ObjectShortName">div160</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/uut/mux_sel">
+      <obj_property name="ElementShortName">mux_sel</obj_property>
+      <obj_property name="ObjectShortName">mux_sel</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/uut/div160_q">
+      <obj_property name="ElementShortName">div160_q</obj_property>
+      <obj_property name="ObjectShortName">div160_q</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/uut/div160_qq">
+      <obj_property name="ElementShortName">div160_qq</obj_property>
+      <obj_property name="ObjectShortName">div160_qq</obj_property>
+   </wvobject>
+</wave_config>
