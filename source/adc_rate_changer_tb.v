@@ -2,11 +2,11 @@
 
 module adc_rate_changer_tb();
 
-    logic clkout320, dcm_reset, dcm_locked;
-    logic   [1:0][13:0]     i_in;
-    logic   [1:0][13:0]     q_in;
-    logic   [13:0]     i_out;
-    logic   [13:0]     q_out;
+    logic   clkin320, clkout320, dcm_reset, dcm_locked;
+    logic   [1:0][15:0]     i_in;
+    logic   [1:0][15:0]     q_in;
+    logic   [15:0]     i_out;
+    logic   [15:0]     q_out;
     
     localparam clk_period = 10;
     logic   clkin160 = 0;
@@ -20,17 +20,19 @@ module adc_rate_changer_tb();
 
     adc_rate_changer uut(.*);
     
+    assign clkin320 = ~clkout320;
+    
     always_ff @(posedge clkin160) begin
         if(dcm_locked == 0) begin
-            i_in[1] <= 3;
-            i_in[0] <= 2;
+            i_in[1] <= 1;
+            i_in[0] <= 0;
             q_in[1] <= 1;
             q_in[0] <= 0;
         end else begin
-            i_in[1] += 4;
-            i_in[0] += 4;            
-            q_in[1] += 4;
-            q_in[0] += 4;
+            i_in[1] += 2;
+            i_in[0] += 2;            
+            q_in[1] += 2;
+            q_in[0] += 2;
         end
     end
   

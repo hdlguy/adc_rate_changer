@@ -6,16 +6,27 @@
       <db_ref path="adc_rate_changer_tb_behav.wdb" id="1">
          <top_modules>
             <top_module name="adc_rate_changer_tb" />
+            <top_module name="attributes" />
             <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="standard" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_misc" />
+            <top_module name="std_logic_unsigned" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="860000000fs"></ZoomStartTime>
-      <ZoomEndTime time="950000001fs"></ZoomEndTime>
-      <Cursor1Time time="920000000fs"></Cursor1Time>
+      <ZoomStartTime time="1651840000fs"></ZoomStartTime>
+      <ZoomEndTime time="1700290001fs"></ZoomEndTime>
+      <Cursor1Time time="990500000fs"></Cursor1Time>
    </zoom_setting>
-   <WVObjectSize size="15" />
+   <WVObjectSize size="20" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/clkin320">
+      <obj_property name="ElementShortName">clkin320</obj_property>
+      <obj_property name="ObjectShortName">clkin320</obj_property>
+   </wvobject>
    <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/clkin160">
       <obj_property name="ElementShortName">clkin160</obj_property>
       <obj_property name="ObjectShortName">clkin160</obj_property>
@@ -33,46 +44,46 @@
       <obj_property name="ObjectShortName">clkout320</obj_property>
    </wvobject>
    <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/i_in">
-      <obj_property name="ElementShortName">i_in[1:0][13:0]</obj_property>
-      <obj_property name="ObjectShortName">i_in[1:0][13:0]</obj_property>
+      <obj_property name="ElementShortName">i_in[1:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_in[1:0][15:0]</obj_property>
       <obj_property name="isExpanded"></obj_property>
       <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/i_in[1]">
-         <obj_property name="ElementShortName">[1][13:0]</obj_property>
-         <obj_property name="ObjectShortName">i_in[1][13:0]</obj_property>
+         <obj_property name="ElementShortName">[1][15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_in[1][15:0]</obj_property>
          <obj_property name="CustomSignalColor">#FF00FF</obj_property>
          <obj_property name="UseCustomSignalColor">true</obj_property>
       </wvobject>
       <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/i_in[0]">
-         <obj_property name="ElementShortName">[0][13:0]</obj_property>
-         <obj_property name="ObjectShortName">i_in[0][13:0]</obj_property>
+         <obj_property name="ElementShortName">[0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_in[0][15:0]</obj_property>
          <obj_property name="CustomSignalColor">#FF00FF</obj_property>
          <obj_property name="UseCustomSignalColor">true</obj_property>
       </wvobject>
    </wvobject>
    <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/q_in">
-      <obj_property name="ElementShortName">q_in[1:0][13:0]</obj_property>
-      <obj_property name="ObjectShortName">q_in[1:0][13:0]</obj_property>
+      <obj_property name="ElementShortName">q_in[1:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">q_in[1:0][15:0]</obj_property>
       <obj_property name="isExpanded"></obj_property>
       <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/q_in[1]">
-         <obj_property name="ElementShortName">[1][13:0]</obj_property>
-         <obj_property name="ObjectShortName">q_in[1][13:0]</obj_property>
+         <obj_property name="ElementShortName">[1][15:0]</obj_property>
+         <obj_property name="ObjectShortName">q_in[1][15:0]</obj_property>
          <obj_property name="CustomSignalColor">#FF00FF</obj_property>
          <obj_property name="UseCustomSignalColor">true</obj_property>
       </wvobject>
       <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/q_in[0]">
-         <obj_property name="ElementShortName">[0][13:0]</obj_property>
-         <obj_property name="ObjectShortName">q_in[0][13:0]</obj_property>
+         <obj_property name="ElementShortName">[0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">q_in[0][15:0]</obj_property>
          <obj_property name="CustomSignalColor">#FF00FF</obj_property>
          <obj_property name="UseCustomSignalColor">true</obj_property>
       </wvobject>
    </wvobject>
    <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/i_out">
-      <obj_property name="ElementShortName">i_out[13:0]</obj_property>
-      <obj_property name="ObjectShortName">i_out[13:0]</obj_property>
+      <obj_property name="ElementShortName">i_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_out[15:0]</obj_property>
    </wvobject>
    <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/q_out">
-      <obj_property name="ElementShortName">q_out[13:0]</obj_property>
-      <obj_property name="ObjectShortName">q_out[13:0]</obj_property>
+      <obj_property name="ElementShortName">q_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out[15:0]</obj_property>
    </wvobject>
    <wvobject fp_name="divider14" type="divider">
       <obj_property name="label">uut</obj_property>
@@ -82,19 +93,27 @@
       <obj_property name="ElementShortName">clkin160</obj_property>
       <obj_property name="ObjectShortName">clkin160</obj_property>
    </wvobject>
-   <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/uut/clkout320">
-      <obj_property name="ElementShortName">clkout320</obj_property>
-      <obj_property name="ObjectShortName">clkout320</obj_property>
-   </wvobject>
    <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/uut/div160">
       <obj_property name="ElementShortName">div160</obj_property>
       <obj_property name="ObjectShortName">div160</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/uut/clkout320">
+      <obj_property name="ElementShortName">clkout320</obj_property>
+      <obj_property name="ObjectShortName">clkout320</obj_property>
    </wvobject>
    <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/uut/mux_sel">
       <obj_property name="ElementShortName">mux_sel</obj_property>
       <obj_property name="ObjectShortName">mux_sel</obj_property>
       <obj_property name="CustomSignalColor">#FF00FF</obj_property>
       <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/uut/q_data">
+      <obj_property name="ElementShortName">q_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">q_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/adc_rate_changer_tb/uut/i_data">
+      <obj_property name="ElementShortName">i_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_data[15:0]</obj_property>
    </wvobject>
    <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/uut/div160_q">
       <obj_property name="ElementShortName">div160_q</obj_property>
@@ -103,5 +122,13 @@
    <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/uut/div160_qq">
       <obj_property name="ElementShortName">div160_qq</obj_property>
       <obj_property name="ObjectShortName">div160_qq</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/uut/fifo_empty">
+      <obj_property name="ElementShortName">fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/adc_rate_changer_tb/uut/fifo_full">
+      <obj_property name="ElementShortName">fifo_full</obj_property>
+      <obj_property name="ObjectShortName">fifo_full</obj_property>
    </wvobject>
 </wave_config>

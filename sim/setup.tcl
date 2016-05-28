@@ -6,6 +6,7 @@ set_property "default_lib" "work" [current_project]
 create_fileset -simset simset
 
 read_ip [ glob ../source/adc_clk_wiz/adc_clk_wiz.xci ]
+read_ip [ glob ../source/adc_fifo/adc_fifo.xci ]
 generate_target {all} [get_ips *]
 
 #set_property  ip_repo_paths  ../ip_repo [current_project]
